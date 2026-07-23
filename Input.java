@@ -34,6 +34,16 @@ public class Input {
       System.out.println("You are NOT enrolled");
     }
 
+
+    //Common Issues
+    System.out.print("Enter your age: ");
+    int Age = scanner.nextInt();
+    System.out.println("Enter your fav color: ");
+    String color = scanner.nextLine();
+    System.out.println("You are "+ age + "years old");
+    System.out.println("You like colour " + color);
     scanner.close(); //close the scanner object
   }
 }
+
+
