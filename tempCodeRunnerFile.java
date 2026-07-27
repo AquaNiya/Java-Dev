@@ -1,1 +1,2 @@
-You didn't enter your name!
+
+    number = random.nextInt(1,6);
