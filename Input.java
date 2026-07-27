@@ -35,13 +35,18 @@ public class Input {
     }
 
 
-    //Common Issues
+    //Common Issues :- int/double then string call 
     System.out.print("Enter your age: ");
     int Age = scanner.nextInt();
     System.out.println("Enter your fav color: ");
     String color = scanner.nextLine();
     System.out.println("You are "+ age + "years old");
     System.out.println("You like colour " + color);
+
+    //Ouput :- You are 78years old
+   //          You like colour  due to /n i.e, \nred; 
+  // so to get rid call - scanner.nextLine()
+
     scanner.close(); //close the scanner object
   }
 }
