@@ -18,5 +18,7 @@ public class Input1 {
     area = height * width;
     System.out.println("The area is: " + area + "cm^2");
     
+    scanner.close();
+    //It's necessary to close scanner class once opened.
   }
 }

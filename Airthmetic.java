@@ -38,7 +38,7 @@ public class Airthmetic {
     System.out.println("t: " + t);
 
     //Order of operations [P-E-M-D-A-S]
-    left to right - parenthesis , exponents , multiply , divide , addition , subtraction 
+    //left to right - parenthesis , exponents , multiply , divide , addition , subtraction 
     double result = 3 + 4 * (7-5) / 2.0;
     System.out.println(result);  //7
   }

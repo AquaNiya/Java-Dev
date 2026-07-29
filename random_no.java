@@ -50,6 +50,5 @@ public class random_no {
       System.out.println("TAILS");
     }
     
-
   }
 }

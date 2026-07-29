@@ -49,13 +49,13 @@ public class string_methods {
     //equals method doesn't account for case sensitivity
 
     if(name.equals("aquaniya")){
-      System.out.println("Your name can't be passwrod");
+      System.out.println("Your name can't be aquaniya");
     }else{
       System.out.println("Hello, " + name);
     }
 
+    //so as to ignore case sensitivity
+    //Use : name.equalsIgnoreCase
     
-
-
   }
 }

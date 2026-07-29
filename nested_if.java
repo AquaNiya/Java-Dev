@@ -1,7 +1,7 @@
 public class nested_if {
   public static void main (String [] args){
 
-    //Nested if Statements - 
+    //Nested if Statements - one could check another condn after checking a condn already
 
     boolean isStudent = true;
     boolean isSenior = true;

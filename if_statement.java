@@ -55,5 +55,6 @@ public class if_statement {
     else{
       System.out.println("You are not a student");
     }
+    scanner.close();
   }
 }
