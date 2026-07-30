@@ -33,6 +33,27 @@ public class While_loops {
     }
 
     System.out.println("You've quit the game");
+
+    //User age
+    int age = 0;
+    System.out.println("Enter your age");
+    age = scanner.nextInt();
+
+    while(age < 0){
+      System.out.println("Your age can't be negative");
+      System.out.print("Enter your age");
+    }
+    System.out.println("You are " + age + " years old");
+
+    // in do-while loop u'll once go through do loop condn and then go for while loop condn
+    // whereas in while loop u may skip the condition if false
+
+    int number = 0;
+    do{
+      System.out.println("Enter a number btw 1-10: ");
+      number = scanner.nextInt();
+    }while(number < 1 || number > 10 );
+    System.out.println("You picked " + number);
     scanner.close();
   }
 }
