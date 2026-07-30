@@ -15,5 +15,6 @@ public class enhanced_switch {
        System.out.println("It's a weekend");
       default -> System.out.println(day + "is not a day");
     }
+    scanner.close();
   }
 }
