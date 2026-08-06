@@ -2,9 +2,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class HandShoot_game {
-  /**
-   * @param args
-   */
   public static void main(String[] args){
     
     //ROCK PAPER SCISSORS GAME 
