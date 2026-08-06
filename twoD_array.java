@@ -1,4 +1,7 @@
 public class twoD_array {
+  /**
+   * @param args
+   */
   public static void main(String[] args) {
     
     //2D array => Multi Dimensional arrays
@@ -9,7 +12,9 @@ public class twoD_array {
     String[] vegetables = {"carrot", "broccoli", "spinach"}; //1D array
     String[] meats = {"chicken", "beef", "pork", "fish"}; //1D array
 
-    //String[][] groceryStore = {fruits, vegetables, meats}; //2D array
+    String[][] groceryStore1 = {fruits, vegetables, meats}; //2D array
+    groceryStore1[3] = cheese;
+
     String[][] groceryStore = {
       {"mango", "apple", "banana"}, //row 0
       {"carrot", "broccoli", "spinach"}, //row 1
