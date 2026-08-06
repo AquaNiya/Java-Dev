@@ -30,5 +30,6 @@ public class Weight_conv {
       newWeight = weight * 2.20462;
       System.out.printf("The new weight in lbs is: %.2f", newWeight);
     }
+    scanner.close();
   }
 }
