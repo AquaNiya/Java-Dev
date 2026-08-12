@@ -13,7 +13,7 @@ public class twoD_array {
     String[] meats = {"chicken", "beef", "pork", "fish"}; //1D array
 
     String[][] groceryStore1 = {fruits, vegetables, meats}; //2D array
-    groceryStore1[3] = cheese;
+    
 
     String[][] groceryStore = {
       {"mango", "apple", "banana"}, //row 0
@@ -22,7 +22,7 @@ public class twoD_array {
     };
 
     //to change an element in a 2D array, we need to specify the row and column index
-    groceryStore[0][1] = "kiwi"; //change "apple" to "kiwi"
+    groceryStore1[0][1] = "kiwi"; //change "apple" to "kiwi"
     groceryStore[2][3] = "salmon"; //change "fish" to "salmon"
     groceryStore[1][0] = "potato"; //change "carrot" to "potato"
     

@@ -14,22 +14,28 @@ public class OOPs {
     Random random = new Random();*/
 
     //To create car object
-    Car car = new Car();
+    Car car1 = new Car();
 
     //car.isRunning = true; -> change the attribute of isRunning
 
-    System.out.println(car.model); //objects are refrence data type thus can't be accessed directly
-    System.out.println(car.make);
-    System.out.println(car.year);
-    System.out.println(car.price);
+    System.out.println(car1.model); //objects are refrence data type thus can't be accessed directly
+    System.out.println(car1.make);
+    System.out.println(car1.year);
+    System.out.println(car1.price);
     
 
-    System.out.println(car.isRunning);
-    car.start();
-    System.out.println(car.isRunning);
-    car.stop();
-    System.out.println(car.isRunning);
-    car.drive();
-    car.brake();
+    System.out.println(car1.isRunning);
+    car1.start();
+    System.out.println(car1.isRunning);
+    car1.stop();
+    System.out.println(car1.isRunning);
+    car1.drive();
+    car1.brake();
+
+    Car car2 = new Car();
+    System.out.println(car1.make + " " + car1.model);
+    System.out.println(car2.make + " " + car2.model);
+    //different cars having same sttributes and mothods
+    //thus came contructors ; by passing an argument we can create unique objects
   }
 }
