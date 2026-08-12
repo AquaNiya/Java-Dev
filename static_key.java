@@ -10,10 +10,12 @@ public class static_key {
     Friend friend3 = new Friend("Squidward");
     Friend friend4 = new Friend("Sandy");
 
+   
+
     System.out.println(Friend.numOfFriends);
     Friend.showFriends();
 
     //In \Math class there's static method - round
-    Math.round(3.99);
+    Math.round(3.99); 
   }
 }

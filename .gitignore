@@ -1,0 +1,7 @@
+# Compiled Java
+*.class
+*.jar
+
+# Temp files
+temp*.java
+.DS_Store
