@@ -3,5 +3,4 @@ public class Animal extends Organism{
       System.out.println("The animal is eating");
     } 
     //Create Dog & Cat class
-  
-  }
+}

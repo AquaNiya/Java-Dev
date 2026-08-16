@@ -4,5 +4,7 @@ public class super_class{
     //super = Refers to the parent class (subclass <- superclass)
     //        used in constructors & method overloading
     //        calls the parent constructor to initialize attrributes
+
+    
   }
 }
