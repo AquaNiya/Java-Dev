@@ -12,7 +12,7 @@ public class Inheritnce{
     System.out.println(dog.isAlive);
     System.out.println(cat.isAlive);
 
-    System.out.println(cat.eat);
+    cat.eat();
 
     System.out.println(dog.lives);
     System.out.println(cat.lives);
@@ -22,6 +22,5 @@ public class Inheritnce{
 
     System.out.println(plant.isAlive);
     plant.photosynthesize();
-    dog.photosynthesize();
   }
 }

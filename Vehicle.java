@@ -11,3 +11,4 @@ public class Vehicle {
 		System.out.println("You drive the " + this.color + " " + this.model);
 	}
 }
+// For array of objects

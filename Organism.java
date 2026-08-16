@@ -1,3 +1,7 @@
 public class Organism {
-boolean isAlive = true;
+  boolean isAlive;
+
+  Organism(){
+    isAlive = true;
+  }
 }
