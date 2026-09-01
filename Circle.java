@@ -8,5 +8,9 @@ public class Circle extends Shape {
   double area() {
     return Math.PI * radius * radius;
   }
+  @Override
+  void display() {
+    System.out.println("This is a circle with radius: " + radius);
+  }
 }
  

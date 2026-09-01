@@ -11,4 +11,8 @@ public class Rectangle extends Shape {
   double area() {
     return length * width;
   }
+  @Override
+  void display() {  
+    System.out.println("This is a rectangle with length: " + length + " and width: " + width);
+  }
 }
