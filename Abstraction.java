@@ -10,6 +10,16 @@ public class Abstraction {
 
 
     //Create different classes Shape, circle, triangle & rectangle
-  }
+    Circle circle = new Circle(3.0);
+    Triangle triangle = new Triangle(4.0, 5.0);
+    Rectangle rectangle = new Rectangle(6.0, 7.0);
 
+    System.out.println("Area of Circle: " + circle.area());
+    System.out.println("Area of Triangle: " + triangle.area()); 
+    System.out.println("Area of Rectangle: " + rectangle.area());
+
+    circle.display();
+    triangle.display(); 
+    rectangle.display();
+  }
 }
