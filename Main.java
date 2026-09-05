@@ -1,17 +1,12 @@
 public class Main {
-    public static void main(String[] args){
-        // This is my first Java Program.
-        /*
-        This
-        is
-        a
-        multi-line
-        comment.
-         */
-        // sout then tab ->System.out.println();
-        System.out.print("I like coffee.\n");
-        System.out.println("The grounded brewed one is really good! ");
-        System.out.println("I'll love to have cold coffee.");
+    public static void main(String[] args) {
+        Room room1 = new Room("Living Room", 300);
+        Room room2 = new Room("Bedroom", 200);
+        Room room3 = new Room("Kitchen", 150);
+
+        Room[] rooms = { room1, room2, room3 };
+        House house = new House("Dream House", 2021, rooms);
+        house.displayInfo();
     }
 }
 
