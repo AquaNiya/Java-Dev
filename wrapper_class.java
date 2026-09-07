@@ -15,8 +15,6 @@ public class wrapper_class {
     Double b = 3.14;
     Character c = '$';
     Boolean d = false;
-    String e = "Pizza";
-
     // Unboxing - converting wrapper class objects back to primitive values.
     int x = a; // Unboxing Integer to int 
     double y = b; // Unboxing Double to double
